@@ -10,7 +10,17 @@ print(new_class)
 #Step 2
 courses =  { 'Math' : 65 , 'English' : 70 , 'History' : 80 , 'French' : 70 , 'Science' : 60 }
 print(courses) 
-total = 65+70+80+70+60
+
+# Slice the dict and stores  the all subjects marks in variable
+
+math = courses['Math']
+english = courses['English']
+history = courses['History']
+french = courses['French']
+science = courses['Science']
+
+# Store the all the subject in one variable `Total`
+total = math + english + history + french + science
 print(total)
 percentage = total/(500/100)
 print(percentage)
